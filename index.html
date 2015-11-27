@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>upload s3</title>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/ng-file-upload/ng-file-upload.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+
+<div ng-app="fileUpload" ng-controller="MyCtrl">
+	<button ngf-select="subirArchivos($files)" multiple accept="image/*">Select Files</button>
+</div>
+
+</body>
+</html>
